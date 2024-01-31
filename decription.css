@@ -11,7 +11,9 @@
     background-color: rgba(67, 230, 230, 0.686);
     border-radius: 8px;
     margin-bottom: 80px;
-    height: 97vh;
+    
+    flex-direction: column;
+    height: auto;
 }
 
 
@@ -19,26 +21,50 @@
    width: 50%;
    height: 350px;
    border-radius: 8px;
-   margin:  10px;
-   margin-right: 40px;
    transition: 0.8s ease;
+   max-width: 100%;
+   height: auto;
+   margin: 10px;
+   margin-right: 20px;
 }
 .projet img:hover {
      transform: scale(1.05);
      
      }
 
+.description{
+    text-align: center;
+}
 .description h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
-
 
     text-align: center;
     color: rgb(39, 137, 179);
 
 }
 .description h3{
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(23, 23, 23);
     font-size: medium;
 }
+@media  (max-width: 768px) {
+    .projet {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .projet img {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  @media  (max-width: 600px) {
+    .description h2 {
+      font-size: 30px;
+    }
+  
+    .description h3 {
+      font-size: 16px;
+    }
+  }

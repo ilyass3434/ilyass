@@ -330,7 +330,7 @@ label{
 
 }
 
-@media (max-width:300px){
+@media (max-width:400px){
 
     .main h2{
         font-size: 0.8em;
@@ -350,6 +350,11 @@ label{
         width:  14em;
         
 
+    }
+    .project-title {
+        display: flex;
+        
+        flex-wrap: wrap;
     }
     
 }
