@@ -311,8 +311,8 @@ label{
 
 @media (max-width:641px){
 
-    .logo a{
-        font-size: 1.2em;
+    .logo {
+        font-size: 1em;
     }
 
     .main h2{
@@ -322,7 +322,7 @@ label{
         font-size: 1.2em;
     }
     .navigation a{
-        font-size: 1.2em;
+        font-size: 0.6em;
     }
     #Compétences img{
         margin: 5px;
@@ -343,7 +343,7 @@ label{
         font-size: 0.8em;
     }
     .navigation a{
-        font-size: 0.1em;
+        font-size: 0.6em;
         padding: 2px;
     }
     .project-card{
